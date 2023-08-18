@@ -7,7 +7,7 @@
  - 暂时没有编写webui，将在未来几天进行编写，现在可用server.sh运行
  - windows运行脚本server.bat暂时未编写
  - 目前只支持linux
- - 直接运行webui.sh可自动下载所需的所有文件，同时自动创建conda环境
+ - 直接运行server.sh可自动下载所需的所有文件，同时自动创建conda环境
 
 linux上通过此方式运行：
 
