@@ -52,6 +52,11 @@ else
 fi
 
 
+# download model
+# 在 env1 环境运行 download.py
+"$(pwd)/venv/env1/bin/python" $(pwd)/download.py
+
+
 # 设置信号处理程序，当脚本接收到终止信号时，结束后台运行的 getparse.py
 cleanup() {
     echo "Cleaning up..."
