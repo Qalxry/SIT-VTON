@@ -6,6 +6,7 @@
 /.vscode/
 /annotator/CIHP_PGN/evaluation/Instance_part_val
 /annotator/CIHP_PGN/datasets/
+/files/
 
 config.ini
 
