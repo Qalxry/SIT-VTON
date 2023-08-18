@@ -2,6 +2,12 @@
 
 深度学习SIT项目
 
+2023/8/18  v0.0.1
+ - 暂时没有编写webui，将在未来几天进行编写
+ - windows运行脚本webui.bat暂时未编写
+ - 目前只支持linux
+ - 直接运行webui.sh可自动下载所需的所有文件，同时自动创建conda环境
+
 linux上通过此方式运行：
 
 ```bash
