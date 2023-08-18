@@ -5,7 +5,7 @@
 linux上通过此方式运行：
 
 ```bash
-git clone 
+git clone https://github.com/Qalxry/SIT-VTON.git
 cd ./SIT-VTON
 sudo chmod 777 ./webui.sh
 ./webui.sh
