@@ -26,3 +26,12 @@ curl -X POST -H "Content-Type: application/json" -d '{"image_path": "$(pwd)/tmp/
 
 初次运行需要对输入的人物、衣物图像进行预处理，同时还要加载模型，时间较久，第二次POST运行较快。
 运行结束后可以在 `SIT-VTON/tmp/result` 查看到结果
+
+目前程序所接受json的key：
+ - `image_path`: 768×1024人像图片所在路径
+ - `output_path`: 768×1024衣物图片所在路径
+ - `return_img`: `bool`值，是否返回生成的图片的字符流
+
+返回的json字段：
+ - `status`: `'success'`
+ - `return_img`: base64图片字符流
