@@ -28,5 +28,5 @@ dependencies:
       - Pillow==8.4.0
       - scipy==1.5.4
       - tensorflow==1.15
-      - flask==2.3.2
+      - flask==2.0.3
 
