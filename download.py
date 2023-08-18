@@ -45,12 +45,13 @@ file_urls = [
 
 file_urls_backup = []
 
-for save_path, file_name, file_url in tqdm(zip(save_paths, file_names, file_urls)):
+for save_path, file_name, file_url in zip(save_paths, file_names, file_urls):
     if not os.path.exists(os.path.join(save_path, file_name)):
         print(f'Downloading {file_name} to {save_path}')
         if not os.path.exists(save_path):
             os.makedirs(save_path)
         wget.download(file_url, out=os.path.join(save_path, file_name))
+        print('\n')
         if file_name.endswith('.zip'):
             with zipfile.ZipFile(os.path.join(save_path, file_name), 'r') as zip_ref:
                 zip_ref.extractall(save_path)
