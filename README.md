@@ -4,8 +4,8 @@
 
 2023/8/18  v0.0.1
  - CIHP_PGN的效果有点差，存在BUG
- - 暂时没有编写webui，将在未来几天进行编写
- - windows运行脚本webui.bat暂时未编写
+ - 暂时没有编写webui，将在未来几天进行编写，现在可用server.sh运行
+ - windows运行脚本server.bat暂时未编写
  - 目前只支持linux
  - 直接运行webui.sh可自动下载所需的所有文件，同时自动创建conda环境
 
@@ -14,8 +14,8 @@ linux上通过此方式运行：
 ```bash
 git clone https://github.com/Qalxry/SIT-VTON.git
 cd ./SIT-VTON
-sudo chmod 777 ./webui.sh
-./webui.sh
+sudo chmod 777 ./server.sh
+./server.sh
 ```
 
 然后通过本地端口5000访问：
