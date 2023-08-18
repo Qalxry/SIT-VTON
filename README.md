@@ -3,6 +3,7 @@
 深度学习SIT项目
 
 2023/8/18  v0.0.1
+ - CIHP_PGN的效果有点差，存在BUG
  - 暂时没有编写webui，将在未来几天进行编写
  - windows运行脚本webui.bat暂时未编写
  - 目前只支持linux
