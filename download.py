@@ -12,9 +12,9 @@ save_paths = [
     os.path.join(FILE_DIR, 'vton_diffusion/models/miccunifi/ladi-vton'),
     os.path.join(FILE_DIR, 'vton_diffusion/models/miccunifi/ladi-vton'),
     os.path.join(FILE_DIR, 'vton_diffusion/models/miccunifi/ladi-vton'),
-    os.path.join(FILE_DIR, 'vton_diffusion/models/stabilityai'),
-    os.path.join(FILE_DIR, 'vton_diffusion/models/stabilityai'),
-    os.path.join(FILE_DIR, 'vton_diffusion/models/stabilityai'),
+    os.path.join(FILE_DIR, 'vton_diffusion/models/stabilityai/stable-diffusion-2-inpainting/text_encoder'),
+    os.path.join(FILE_DIR, 'vton_diffusion/models/stabilityai/stable-diffusion-2-inpainting/vae'),
+    os.path.join(FILE_DIR, 'vton_diffusion/models/laion/CLIP-ViT-H-14-laion2B-s32B-b79K'),
     os.path.join(FILE_DIR, 'annotator/CIHP_PGN/checkpoint'),
 ]
 
@@ -31,7 +31,6 @@ file_names = [
 ]
 
 file_urls = [
-    # 'https://drive.google.com/uc?id=1ij6KxxeBkOjox-kc6RFCQMU_3QY2krR3&export=download&confirm=t&uuid=96966ebb-4c84-4fa0-baa0-38ad425bd773&at=AB6BwCDjSoOUHd2Xo6XIcaPZpxPA:1692348756164',
     'https://github.com/Qalxry/SIT-VTON/releases/download/models/pose_iter_584000.caffemodel.pt',
     'https://github.com/miccunifi/ladi-vton/releases/download/weights/emasc_vitonhd.pth',
     'https://github.com/miccunifi/ladi-vton/releases/download/weights/inversion_adapter_vitonhd.pth',
