@@ -100,3 +100,4 @@ dependencies:
       - scikit-image==0.21.0
       - wget==3.2
       - flask==2.3.2
+      - gradio==3.40.1
