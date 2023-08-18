@@ -1,0 +1,21 @@
+
+/annotator/CIHP_PGN/checkpoint/CIHP_pgn
+/venv/env1/
+/venv/env2/
+/tmp1/
+/.vscode/
+/annotator/CIHP_PGN/evaluation/Instance_part_val
+/annotator/CIHP_PGN/datasets/
+
+config.ini
+
+*.log
+*.pt
+*.pth
+*.bin
+*.zip
+
+# 忽略所有 .pyc 和 .pyo 文件
+__pycache__/
+*.pyc
+*.pyo
